@@ -3,3 +3,7 @@ tmp
 dist
 coverage
 app/bower_components
+opus-mockup
+test
+.travis.yml
+content.txt

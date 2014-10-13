@@ -57,17 +57,19 @@ body {
     padding: 20px 0 0;
     margin: 0 auto;
   }
-
+  table{
+    margin: auto auto;
+  }
   #cities {
-    width: 90%;
-    margin-left: 2em;
+    width: 100%;
+    margin: 2em auto;
     padding: 0.25em;
     .location-block {
       width: 10em;
       padding: 0.25em;
       height: 9em;
       float: left;
-      margin: 1em -1em;
+      margin: 1em;
       border: rgb(237,237,237) solid 1px;
       background: rgba(237,237,237,1);
       background: -moz-linear-gradient(left, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 53%, rgba(255,255,255,1) 100%);

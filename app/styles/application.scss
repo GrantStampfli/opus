@@ -50,42 +50,26 @@ body {
   p {
     padding: 0;
     margin: 0 0 1em 0;
-    font-size: 11px;
+    font-size: 12px;
   }
   #header-stripe {
     background-color: #1967ba;
     padding: 20px 0 0;
     margin: 0 auto;
   }
-  .cities {
-    width: 940px;
-    border-spacing: 0;
-    border-collapse: collapse;
-    margin-top: 40px;
-    td {
-      border-bottom: solid 1px #e2e2e2;
-      padding: 2px 15px;
-      vertical-align: top;
-    }
-    th {
-      background-color: #00aeef;
-      color: #ffffff;
-      font-size: 18px;
-      padding: 5px 0;
-    }
-  }
+
   #cities {
     width: 940px;
     margin: 2em;
     margin-left: 1em;
     overflow: auto;
-    padding: 0;
+    padding: 0.25em;
     .location-block {
       width: 9.5em;
+      padding: .25em;
       height: 8em;
       float: left;
       margin: .5em;
-      padding: .25em;
       border: rgb(237,237,237) solid 1px;
       background: rgba(237,237,237,1);
       background: -moz-linear-gradient(left, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 53%, rgba(255,255,255,1) 100%);
@@ -95,12 +79,26 @@ body {
       background: -ms-linear-gradient(left, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 53%, rgba(255,255,255,1) 100%);
       background: linear-gradient(to right, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 53%, rgba(255,255,255,1) 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff', GradientType=1 );
-    }
-    div{
-      font-size: 90%;
-    }
-    .city{
-      font-weight: bold;
+      .city {
+        line-height: 10 px;
+        display: block;
+        text-align: left;
+      }
+      .date{
+        font-weight: bold;
+        font-family: Verdana, Arial, Tahoma, Helvetica, sans-serif;
+        font-size: 14.6000003814697px;
+        line-height: 10 px;
+        display: block;
+        text-align: left;
+      }
+      .loc{
+        font-family: Verdana, Arial, Tahoma, Helvetica, sans-serif;
+        font-size: 10.6000003814697px;
+        line-height: 10 px;
+        display: block;
+        text-align: left;
+      }
     }
   }
 .tracks {
@@ -158,8 +156,8 @@ body {
   padding: .5em;
   color: #fff;
   display: block;
-  font-weight: bold;
   font-size: 12px;
+  line-height: 10 px;
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
   -webkit-margin-start: 0px;
@@ -192,13 +190,13 @@ footer {
     font-size: 10px;
     text-align: left;
     font-weight: bold;
-    color: #fff;
+    color: #ddd;
     a:link {
-      color: #ffffff;
-      text-decoration: none;
+      color: #ddd;
+      text-decoration: underline;
     }
     a:visited {
-        color: #ffffff;
+        color: #ddd;
     }
     a:hover {
         color: #004280;
